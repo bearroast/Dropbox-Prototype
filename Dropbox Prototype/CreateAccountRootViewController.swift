@@ -12,7 +12,7 @@ class CreateAccountRootViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.navigationItem.title = "Welcome"
         performSegueWithIdentifier("performCreateAccount", sender: self)
 
         // Do any additional setup after loading the view.

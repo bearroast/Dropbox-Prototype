@@ -12,7 +12,7 @@ class SignInRootViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationItem.title = "Welcome"
         performSegueWithIdentifier("performSignIn", sender: self)
 
         // Do any additional setup after loading the view.
