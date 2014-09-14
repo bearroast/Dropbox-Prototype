@@ -205,10 +205,10 @@
             </objects>
             <point key="canvasLocation" x="1723" y="1775"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Account View Controller-->
         <scene sceneID="Uuc-dq-TQF">
             <objects>
-                <viewController id="dJg-7I-zuB" customClass="ViewController" customModule="Dropbox_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dJg-7I-zuB" customClass="CreateAccountViewController" customModule="Dropbox_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CrW-We-Gpc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -236,10 +236,10 @@
             </objects>
             <point key="canvasLocation" x="2154" y="1095"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Account View Controller-->
         <scene sceneID="s6j-TV-XUJ">
             <objects>
-                <viewController id="kG7-Id-ENC" customClass="ViewController" customModule="Dropbox_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="kG7-Id-ENC" customClass="CreateAccountViewController" customModule="Dropbox_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C29-ZZ-cfX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -267,10 +267,10 @@
             </objects>
             <point key="canvasLocation" x="2548" y="1095"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Account View Controller-->
         <scene sceneID="mf7-kr-7ft">
             <objects>
-                <viewController id="DIZ-Fz-pj0" customClass="ViewController" customModule="Dropbox_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="DIZ-Fz-pj0" customClass="CreateAccountViewController" customModule="Dropbox_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iHo-ai-ZBT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -298,10 +298,10 @@
             </objects>
             <point key="canvasLocation" x="2933" y="1095"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Account View Controller-->
         <scene sceneID="nOa-G5-1Td">
             <objects>
-                <viewController id="afO-M2-YKn" customClass="ViewController" customModule="Dropbox_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="afO-M2-YKn" customClass="CreateAccountViewController" customModule="Dropbox_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="28k-9D-fWI">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -329,10 +329,10 @@
             </objects>
             <point key="canvasLocation" x="3306" y="1095"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Account View Controller-->
         <scene sceneID="QN7-aA-PZ1">
             <objects>
-                <viewController id="Qcm-hn-gQ2" customClass="ViewController" customModule="Dropbox_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Qcm-hn-gQ2" customClass="CreateAccountViewController" customModule="Dropbox_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BdI-4r-8zH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -342,7 +342,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="h6W-Li-jjq">
-                                <rect key="frame" x="0.0" y="67" width="320" height="501"/>
+                                <rect key="frame" x="244" y="20" width="76" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -358,7 +358,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="94A-4U-Ag6" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3679" y="1095"/>
+            <point key="canvasLocation" x="3678" y="1095"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Qro-x2-pC7">
@@ -372,6 +372,16 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Uef-GI-IVy">
+                                <rect key="frame" x="10" y="518" width="302" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="eG1-oJ-M7E" kind="modal" id="VRa-4E-zD6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -379,7 +389,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kc6-fo-Gqe" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4054" y="1095"/>
+            <point key="canvasLocation" x="4085" y="1095"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Uhj-r5-nyK">
@@ -420,6 +430,37 @@
             </objects>
             <point key="canvasLocation" x="2154" y="1775"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="oEv-zg-sVU">
+            <objects>
+                <viewController id="eG1-oJ-M7E" customClass="TOSViewController" customModule="Dropbox_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lvu-KZ-oyl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="terms" id="vYP-f0-9jX">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="a1B-aX-Jph">
+                                <rect key="frame" x="268" y="26" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didPressDone:" destination="eG1-oJ-M7E" eventType="touchUpInside" id="Wgl-BM-G0g"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0Jz-V9-Ilm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MEs-Cf-fxD" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4474" y="1095"/>
+        </scene>
     </scenes>
     <resources>
         <image name="create1" width="320" height="568"/>
@@ -430,6 +471,7 @@
         <image name="create_account" width="320" height="568"/>
         <image name="logged_out" width="320" height="568"/>
         <image name="sign_in1" width="320" height="568"/>
+        <image name="terms" width="320" height="568"/>
         <image name="welcome1" width="320" height="568"/>
         <image name="welcome2" width="320" height="568"/>
         <image name="welcome3" width="320" height="568"/>
