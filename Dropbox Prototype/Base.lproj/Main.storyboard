@@ -570,17 +570,17 @@
         <!--Settings-->
         <scene sceneID="0Qy-Kk-uxu">
             <objects>
-                <viewController id="dYY-Bh-vhk" sceneMemberID="viewController">
+                <viewController id="dYY-Bh-vhk" customClass="SettingsViewController" customModule="Dropbox_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7qA-R4-Hk2">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="elg-Wd-Hkf">
-                                <rect key="frame" x="0.0" y="56" width="320" height="692"/>
+                                <rect key="frame" x="0.0" y="56" width="320" height="944"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settings" id="RXV-Nb-yWC">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
+                                        <rect key="frame" x="0.0" y="8" width="320" height="908"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
                                 </subviews>
@@ -590,11 +590,14 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" image="settings_tab" id="M96-ys-nSb"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="800"/>
+                    <size key="freeformSize" width="320" height="1000"/>
+                    <connections>
+                        <outlet property="scrollView" destination="elg-Wd-Hkf" id="mfD-RY-hR0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RuI-na-60r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5627" y="1969"/>
+            <point key="canvasLocation" x="5626" y="2069"/>
         </scene>
         <!--Sign In View Controller-->
         <scene sceneID="0CY-1U-g8W">

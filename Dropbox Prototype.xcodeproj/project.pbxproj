@@ -18,6 +18,7 @@
 		409F7B9B19C632D70006B8D0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409F7B9A19C632D70006B8D0 /* SignInViewController.swift */; };
 		409F7B9E19C6332D0006B8D0 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409F7B9D19C6332D0006B8D0 /* CreateAccountViewController.swift */; };
 		409F7BA019C63E9A0006B8D0 /* TOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409F7B9F19C63E9A0006B8D0 /* TOSViewController.swift */; };
+		409F7BA219C740A00006B8D0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409F7BA119C740A00006B8D0 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		409F7B9A19C632D70006B8D0 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		409F7B9D19C6332D0006B8D0 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		409F7B9F19C63E9A0006B8D0 /* TOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TOSViewController.swift; sourceTree = "<group>"; };
+		409F7BA119C740A00006B8D0 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		409F7B9C19C632DF0006B8D0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				409F7BA119C740A00006B8D0 /* SettingsViewController.swift */,
 				409F7B9F19C63E9A0006B8D0 /* TOSViewController.swift */,
 				409F7B9D19C6332D0006B8D0 /* CreateAccountViewController.swift */,
 				409F7B9A19C632D70006B8D0 /* SignInViewController.swift */,
@@ -242,6 +245,7 @@
 				406EB2E619C2BC6E00864B90 /* ViewController.swift in Sources */,
 				409F7B9B19C632D70006B8D0 /* SignInViewController.swift in Sources */,
 				406EB2E419C2BC6E00864B90 /* AppDelegate.swift in Sources */,
+				409F7BA219C740A00006B8D0 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
