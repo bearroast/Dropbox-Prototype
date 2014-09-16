@@ -19,10 +19,12 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xop-Dp-BXb">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <outletCollection property="gestureRecognizers" destination="tPS-4L-g5k" appends="YES" id="XqG-Va-R84"/>
                                     <segue destination="Xga-2Q-iOZ" kind="modal" modalTransitionStyle="crossDissolve" id="AY7-5w-zts"/>
                                 </connections>
                             </button>
@@ -31,6 +33,7 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="tPS-4L-g5k"/>
             </objects>
             <point key="canvasLocation" x="296" y="391"/>
         </scene>
