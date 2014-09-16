@@ -10,6 +10,9 @@ import UIKit
 
 class SignInViewController: UIViewController {
 
+    @IBAction func didPressCancel(sender: UIButton) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
