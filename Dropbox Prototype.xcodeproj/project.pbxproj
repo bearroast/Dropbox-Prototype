@@ -19,6 +19,7 @@
 		409F7B9E19C6332D0006B8D0 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409F7B9D19C6332D0006B8D0 /* CreateAccountViewController.swift */; };
 		409F7BA019C63E9A0006B8D0 /* TOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409F7B9F19C63E9A0006B8D0 /* TOSViewController.swift */; };
 		409F7BA219C740A00006B8D0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409F7BA119C740A00006B8D0 /* SettingsViewController.swift */; };
+		40CA605419C805AF00AC215C /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CA605319C805AF00AC215C /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		409F7B9D19C6332D0006B8D0 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		409F7B9F19C63E9A0006B8D0 /* TOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TOSViewController.swift; sourceTree = "<group>"; };
 		409F7BA119C740A00006B8D0 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		40CA605319C805AF00AC215C /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				409F7B9A19C632D70006B8D0 /* SignInViewController.swift */,
 				409F7B9819C62E940006B8D0 /* SignInRootViewController.swift */,
 				406EB2E519C2BC6E00864B90 /* ViewController.swift */,
+				40CA605319C805AF00AC215C /* PhotosViewController.swift */,
 				409F7B9619C615140006B8D0 /* CreateAccountRootViewController.swift */,
 			);
 			name = ViewControllers;
@@ -238,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40CA605419C805AF00AC215C /* PhotosViewController.swift in Sources */,
 				409F7B9E19C6332D0006B8D0 /* CreateAccountViewController.swift in Sources */,
 				409F7B9919C62E940006B8D0 /* SignInRootViewController.swift in Sources */,
 				409F7B9719C615140006B8D0 /* CreateAccountRootViewController.swift in Sources */,

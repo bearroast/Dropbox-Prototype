@@ -19,7 +19,7 @@ class SettingsViewController: UIViewController, UIScrollViewDelegate {
     
         super.viewDidLoad()
         
-        scrollView.contentSize = CGSize(width: 320, height: 1140)
+        scrollView.contentSize = CGSize(width: 320, height: 772) //scrollView.contentSize = greenView.frame.size
         scrollView.delegate = self
         
         self.navigationItem.title = "Settings"
