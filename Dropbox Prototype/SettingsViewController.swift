@@ -11,13 +11,18 @@ import UIKit
 class SettingsViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet weak var scrollView: UIScrollView!
+    @IBAction func didPressSignOut(sender: AnyObject) {
+         performSegueWithIdentifier("signOut", sender: self)
+    }
     
     override func viewDidLoad() {
+    
         super.viewDidLoad()
         
-        scrollView.contentSize = CGSize(width: 320, height: 1000)
-
+        scrollView.contentSize = CGSize(width: 320, height: 1140)
         scrollView.delegate = self
+        
+        self.navigationItem.title = "Settings"
     }
 
     override func didReceiveMemoryWarning() {
