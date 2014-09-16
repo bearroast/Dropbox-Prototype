@@ -20,6 +20,7 @@
 		409F7BA019C63E9A0006B8D0 /* TOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409F7B9F19C63E9A0006B8D0 /* TOSViewController.swift */; };
 		409F7BA219C740A00006B8D0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409F7BA119C740A00006B8D0 /* SettingsViewController.swift */; };
 		40CA605419C805AF00AC215C /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CA605319C805AF00AC215C /* PhotosViewController.swift */; };
+		40CA605619C81C9000AC215C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CA605519C81C9000AC215C /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		409F7B9F19C63E9A0006B8D0 /* TOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TOSViewController.swift; sourceTree = "<group>"; };
 		409F7BA119C740A00006B8D0 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		40CA605319C805AF00AC215C /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		40CA605519C81C9000AC215C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				409F7B9C19C632DF0006B8D0 /* ViewControllers */,
 				406EB2E319C2BC6E00864B90 /* AppDelegate.swift */,
 				406EB2E719C2BC6E00864B90 /* Main.storyboard */,
+				40CA605519C81C9000AC215C /* DetailViewController.swift */,
 				406EB2EA19C2BC6E00864B90 /* Images.xcassets */,
 				406EB2EC19C2BC6E00864B90 /* LaunchScreen.xib */,
 				406EB2E119C2BC6E00864B90 /* Supporting Files */,
@@ -248,6 +251,7 @@
 				409F7BA019C63E9A0006B8D0 /* TOSViewController.swift in Sources */,
 				406EB2E619C2BC6E00864B90 /* ViewController.swift in Sources */,
 				409F7B9B19C632D70006B8D0 /* SignInViewController.swift in Sources */,
+				40CA605619C81C9000AC215C /* DetailViewController.swift in Sources */,
 				406EB2E419C2BC6E00864B90 /* AppDelegate.swift in Sources */,
 				409F7BA219C740A00006B8D0 /* SettingsViewController.swift in Sources */,
 			);
