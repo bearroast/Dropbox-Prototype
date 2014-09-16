@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400772B619C8367C00DA39B7 /* WelcomeOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400772B519C8367C00DA39B7 /* WelcomeOneViewController.swift */; };
+		400772B819C838ED00DA39B7 /* WelcomeTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400772B719C838ED00DA39B7 /* WelcomeTwoViewController.swift */; };
+		400772BA19C8391900DA39B7 /* WelcomeThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400772B919C8391900DA39B7 /* WelcomeThreeViewController.swift */; };
 		406EB2E419C2BC6E00864B90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406EB2E319C2BC6E00864B90 /* AppDelegate.swift */; };
 		406EB2E619C2BC6E00864B90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406EB2E519C2BC6E00864B90 /* ViewController.swift */; };
 		406EB2E919C2BC6E00864B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406EB2E719C2BC6E00864B90 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		400772B519C8367C00DA39B7 /* WelcomeOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeOneViewController.swift; sourceTree = "<group>"; };
+		400772B719C838ED00DA39B7 /* WelcomeTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeTwoViewController.swift; sourceTree = "<group>"; };
+		400772B919C8391900DA39B7 /* WelcomeThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeThreeViewController.swift; sourceTree = "<group>"; };
 		406EB2DE19C2BC6E00864B90 /* Dropbox Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dropbox Prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		406EB2E219C2BC6E00864B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		406EB2E319C2BC6E00864B90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +102,9 @@
 				409F7B9C19C632DF0006B8D0 /* ViewControllers */,
 				406EB2E319C2BC6E00864B90 /* AppDelegate.swift */,
 				406EB2E719C2BC6E00864B90 /* Main.storyboard */,
+				400772B519C8367C00DA39B7 /* WelcomeOneViewController.swift */,
+				400772B719C838ED00DA39B7 /* WelcomeTwoViewController.swift */,
+				400772B919C8391900DA39B7 /* WelcomeThreeViewController.swift */,
 				40CA605519C81C9000AC215C /* DetailViewController.swift */,
 				406EB2EA19C2BC6E00864B90 /* Images.xcassets */,
 				406EB2EC19C2BC6E00864B90 /* LaunchScreen.xib */,
@@ -246,6 +255,7 @@
 			files = (
 				40CA605419C805AF00AC215C /* PhotosViewController.swift in Sources */,
 				409F7B9E19C6332D0006B8D0 /* CreateAccountViewController.swift in Sources */,
+				400772B819C838ED00DA39B7 /* WelcomeTwoViewController.swift in Sources */,
 				409F7B9919C62E940006B8D0 /* SignInRootViewController.swift in Sources */,
 				409F7B9719C615140006B8D0 /* CreateAccountRootViewController.swift in Sources */,
 				409F7BA019C63E9A0006B8D0 /* TOSViewController.swift in Sources */,
@@ -254,6 +264,8 @@
 				40CA605619C81C9000AC215C /* DetailViewController.swift in Sources */,
 				406EB2E419C2BC6E00864B90 /* AppDelegate.swift in Sources */,
 				409F7BA219C740A00006B8D0 /* SettingsViewController.swift in Sources */,
+				400772BA19C8391900DA39B7 /* WelcomeThreeViewController.swift in Sources */,
+				400772B619C8367C00DA39B7 /* WelcomeOneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="fIO-3L-LCj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Welcome One View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Dropbox_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="WelcomeOneViewController" customModule="Dropbox_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -16,31 +16,28 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xop-Dp-BXb">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="tPS-4L-g5k" appends="YES" id="XqG-Va-R84"/>
-                                    <segue destination="Xga-2Q-iOZ" kind="modal" modalTransitionStyle="crossDissolve" id="AY7-5w-zts"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="1EJ-1x-gR1" appends="YES" id="Uqy-W0-viC"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="left" id="tPS-4L-g5k"/>
+                <swipeGestureRecognizer direction="left" id="1EJ-1x-gR1">
+                    <connections>
+                        <action selector="goToNext:" destination="vXZ-lx-hvc" id="q6s-26-r1U"/>
+                        <segue destination="Xga-2Q-iOZ" kind="modal" identifier="next" animates="NO" id="GZx-AQ-XnC"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="296" y="391"/>
         </scene>
-        <!--View Controller-->
+        <!--Welcome Two View Controller-->
         <scene sceneID="FCa-Rs-w5V">
             <objects>
-                <viewController id="Xga-2Q-iOZ" customClass="ViewController" customModule="Dropbox_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Xga-2Q-iOZ" customClass="WelcomeTwoViewController" customModule="Dropbox_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QtB-gM-obh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -49,28 +46,28 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ChU-MV-C4I">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="XWe-PQ-JA3" kind="modal" modalTransitionStyle="crossDissolve" id="z5d-So-UJV"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="ST3-LA-jbQ" appends="YES" id="IBP-ve-Jlb"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bxw-f2-c8X" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="ST3-LA-jbQ">
+                    <connections>
+                        <action selector="goToNext:" destination="Xga-2Q-iOZ" id="bRW-Da-Cth"/>
+                        <segue destination="XWe-PQ-JA3" kind="modal" identifier="swipe" animates="NO" id="y4c-gX-VLA"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="718" y="385"/>
         </scene>
-        <!--View Controller-->
+        <!--Welcome Three View Controller-->
         <scene sceneID="6qb-Ls-z2W">
             <objects>
-                <viewController id="XWe-PQ-JA3" customClass="ViewController" customModule="Dropbox_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XWe-PQ-JA3" customClass="WelcomeThreeViewController" customModule="Dropbox_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Hd-aq-nA8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1082,8 +1079,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="WUJ-Fk-fZf"/>
-        <segue reference="0cf-HM-C0b"/>
         <segue reference="D3X-09-HUi"/>
+        <segue reference="wlq-fc-YEv"/>
+        <segue reference="WUJ-Fk-fZf"/>
     </inferredMetricsTieBreakers>
 </document>
